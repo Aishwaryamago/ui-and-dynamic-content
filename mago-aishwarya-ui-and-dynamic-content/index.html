@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="masthead">
+            <img src="image/grocery-7404621_1280.png" alt="Masthead Image">
+            <p class="tagline">Your Online Groceries Store</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>My Shopping List</h2>
+            <input type="text" id="itemInput" placeholder="Enter an item">
+            <button id="addItemButton">Add Item</button>
+            <p id="errorMessage" class="feedback"></p>  <!-- Updated this line -->
+
+            <ul id="itemList"></ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
